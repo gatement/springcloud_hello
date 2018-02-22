@@ -15,6 +15,8 @@ import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 
+import com.lgh.springcloud.hello.controller.HelloController;
+
 @RunWith(SpringRunner.class)
 @SpringBootTest
 public class SpringcloudHelloApplicationTests {
