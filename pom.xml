@@ -50,7 +50,8 @@
         <dependency>
             <groupId>com.lgh.springcloud.hello.service.api</groupId>
             <artifactId>springcloud_hello_service_api</artifactId>
-		</dependency>
+            <version>0.1.3</version>
+        </dependency>
     </dependencies>
 
     <dependencyManagement>
@@ -61,11 +62,6 @@
                 <version>${spring-cloud.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
-            </dependency>
-            <dependency>
-                <groupId>com.lgh.springcloud.hello.service.api</groupId>
-                <artifactId>springcloud_hello_service_api</artifactId>
-                <version>0.1.3</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
